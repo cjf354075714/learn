@@ -1,0 +1,117 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0" version="28.2.1">
+  <diagram name="第 1 页" id="VClDClR5nEUt8vDpQzMs">
+    <mxGraphModel dx="3338" dy="1146" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="gATvSa8VzVJt8OoZpNdk-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="gATvSa8VzVJt8OoZpNdk-1" target="gATvSa8VzVJt8OoZpNdk-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gATvSa8VzVJt8OoZpNdk-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="gATvSa8VzVJt8OoZpNdk-1" target="gATvSa8VzVJt8OoZpNdk-16" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gATvSa8VzVJt8OoZpNdk-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;统一管理平台&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="-213" y="191" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gATvSa8VzVJt8OoZpNdk-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="gATvSa8VzVJt8OoZpNdk-2" target="gATvSa8VzVJt8OoZpNdk-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gATvSa8VzVJt8OoZpNdk-11" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;上报潜在风险工单&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="gATvSa8VzVJt8OoZpNdk-6" vertex="1" connectable="0">
+          <mxGeometry x="0.0833" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gATvSa8VzVJt8OoZpNdk-2" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;政策系统&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="336" y="189" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gATvSa8VzVJt8OoZpNdk-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="gATvSa8VzVJt8OoZpNdk-3" target="gATvSa8VzVJt8OoZpNdk-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gATvSa8VzVJt8OoZpNdk-3" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;催收系统&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="584" y="189" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gATvSa8VzVJt8OoZpNdk-4" value="&lt;font style=&quot;font-size: 18px;&quot; face=&quot;Courier New&quot;&gt;loan-risk-anti&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="304" y="345" width="184" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gATvSa8VzVJt8OoZpNdk-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="gATvSa8VzVJt8OoZpNdk-8" target="gATvSa8VzVJt8OoZpNdk-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gATvSa8VzVJt8OoZpNdk-8" value="&lt;div&gt;&lt;pre style=&quot;font-size: 13.5pt;&quot;&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;LoanWorkOrderDetailInfoBiz.&lt;/font&gt;reportNewWorkOrder&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="83.5" y="459" width="625" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gATvSa8VzVJt8OoZpNdk-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="gATvSa8VzVJt8OoZpNdk-14" target="gATvSa8VzVJt8OoZpNdk-24" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gATvSa8VzVJt8OoZpNdk-14" value="&lt;pre style=&quot;font-family: &amp;quot;Courier New&amp;quot;, monospace; font-size: 13.5pt;&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237)); font-size: 13.5pt; background-color: transparent; white-space: normal;&quot;&gt;loan-risk-anti.loan_anti_fraud_outbound_call_record&lt;/span&gt;&lt;/pre&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
+          <mxGeometry x="107" y="580" width="578" height="77" as="geometry" />
+        </mxCell>
+        <mxCell id="gATvSa8VzVJt8OoZpNdk-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="gATvSa8VzVJt8OoZpNdk-8" target="gATvSa8VzVJt8OoZpNdk-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gATvSa8VzVJt8OoZpNdk-16" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;xxlJob&lt;/font&gt;" style="triangle;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-47" y="579" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gATvSa8VzVJt8OoZpNdk-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="gATvSa8VzVJt8OoZpNdk-16" target="gATvSa8VzVJt8OoZpNdk-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gATvSa8VzVJt8OoZpNdk-21" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;规定只能在8-20时间段拨打电话&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;为避免出现时间差，定时任务在9-19点执行&lt;/font&gt;&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" parent="1" vertex="1">
+          <mxGeometry x="-142" y="680" width="250" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gATvSa8VzVJt8OoZpNdk-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="gATvSa8VzVJt8OoZpNdk-24" target="gATvSa8VzVJt8OoZpNdk-26" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gATvSa8VzVJt8OoZpNdk-24" value="查询出没有拨打过电话，或者拨打过但是没有接听且拨打次数小于2次，且产品id为102（快手）的数据" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" parent="1" vertex="1">
+          <mxGeometry x="804" y="568.5" width="252" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="gATvSa8VzVJt8OoZpNdk-25" value="&lt;div data-lark-html-role=&quot;root&quot;&gt;&lt;span style=&quot;white-space: pre;&quot; data-eleid=&quot;3&quot; class=&quot;text-only&quot;&gt;外部智能机器人服务&lt;/span&gt;&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="1514" y="578.5" width="196" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gATvSa8VzVJt8OoZpNdk-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="gATvSa8VzVJt8OoZpNdk-26" target="gATvSa8VzVJt8OoZpNdk-25" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gATvSa8VzVJt8OoZpNdk-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="gATvSa8VzVJt8OoZpNdk-26" target="gATvSa8VzVJt8OoZpNdk-29" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gATvSa8VzVJt8OoZpNdk-32" value="通话结果回调" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="gATvSa8VzVJt8OoZpNdk-30" vertex="1" connectable="0">
+          <mxGeometry x="0.0208" y="2" relative="1" as="geometry">
+            <mxPoint x="-19" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gATvSa8VzVJt8OoZpNdk-26" value="&lt;span style=&quot;white-space: pre;&quot;&gt;mifi-guard-proxy-xj&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1229" y="589" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gATvSa8VzVJt8OoZpNdk-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" target="gATvSa8VzVJt8OoZpNdk-14" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="826" y="887" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gATvSa8VzVJt8OoZpNdk-29" value="&lt;font style=&quot;font-size: 18px;&quot; face=&quot;Courier New&quot;&gt;loan-risk-anti&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="830" y="858" width="184" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="gATvSa8VzVJt8OoZpNdk-34" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;外部依赖&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="1546" y="181" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gATvSa8VzVJt8OoZpNdk-35" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;涉及范围&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="1546" y="274" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gATvSa8VzVJt8OoZpNdk-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="gATvSa8VzVJt8OoZpNdk-36" target="gATvSa8VzVJt8OoZpNdk-29" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gATvSa8VzVJt8OoZpNdk-36" value="&lt;font face=&quot;Courier New&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;loan-operation-management&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="87" y="905" width="184" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gATvSa8VzVJt8OoZpNdk-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="gATvSa8VzVJt8OoZpNdk-38" target="gATvSa8VzVJt8OoZpNdk-36" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gATvSa8VzVJt8OoZpNdk-41" value="查询拨打记录" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="gATvSa8VzVJt8OoZpNdk-39" vertex="1" connectable="0">
+          <mxGeometry x="0.0331" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gATvSa8VzVJt8OoZpNdk-38" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="-185" y="905" width="30" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
