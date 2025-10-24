@@ -1,9 +1,234 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0" version="28.2.8">
   <diagram name="第 1 页" id="uYw3dmouel2UDroEi0AH">
-    <mxGraphModel dx="1441" dy="1138" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1841" dy="1138" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="JBwW-usatGu79lFz4nw6-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;fontColor=light-dark(#000000,#EDEDED);" edge="1" parent="1" source="JBwW-usatGu79lFz4nw6-2" target="JBwW-usatGu79lFz4nw6-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="70" y="180" />
+              <mxPoint x="70" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JBwW-usatGu79lFz4nw6-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;fontColor=light-dark(#000000,#EDEDED);" edge="1" parent="1" source="JBwW-usatGu79lFz4nw6-2" target="JBwW-usatGu79lFz4nw6-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-10" y="350" />
+              <mxPoint x="-10" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JBwW-usatGu79lFz4nw6-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;fontColor=light-dark(#000000,#EDEDED);" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-70.5" y="760" as="sourcePoint" />
+            <mxPoint x="819.5" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JBwW-usatGu79lFz4nw6-48" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;创建Deployment和Pod&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=light-dark(#000000,#EDEDED);" vertex="1" connectable="0" parent="JBwW-usatGu79lFz4nw6-47">
+          <mxGeometry x="0.0124" y="-3" relative="1" as="geometry">
+            <mxPoint y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JBwW-usatGu79lFz4nw6-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;fontColor=light-dark(#000000,#EDEDED);" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-70.5" y="490" as="sourcePoint" />
+            <mxPoint x="189.5" y="490" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="120" y="490" />
+              <mxPoint x="120" y="490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JBwW-usatGu79lFz4nw6-58" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;更新模型表的构建id和构建状态&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=light-dark(#000000,#EDEDED);" vertex="1" connectable="0" parent="JBwW-usatGu79lFz4nw6-56">
+          <mxGeometry x="0.1269" y="3" relative="1" as="geometry">
+            <mxPoint x="-5" y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JBwW-usatGu79lFz4nw6-2" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;政策平台&lt;/font&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="-120" y="40" width="100" height="1150" as="geometry" />
+        </mxCell>
+        <mxCell id="JBwW-usatGu79lFz4nw6-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;fontColor=light-dark(#000000,#EDEDED);" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="189.5" y="410" as="sourcePoint" />
+            <mxPoint x="469.5" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JBwW-usatGu79lFz4nw6-27" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;调用/api/docker/build接口&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=light-dark(#000000,#EDEDED);" vertex="1" connectable="0" parent="JBwW-usatGu79lFz4nw6-24">
+          <mxGeometry x="0.0107" y="2" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JBwW-usatGu79lFz4nw6-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;fontColor=light-dark(#000000,#EDEDED);" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-70.5" y="580" as="sourcePoint" />
+            <mxPoint x="-70.5" y="700" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="10" y="580" />
+              <mxPoint x="10" y="700" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JBwW-usatGu79lFz4nw6-46" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;根据环境信息和&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;机房信息创建K8S Client&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=light-dark(#000000,#EDEDED);" vertex="1" connectable="0" parent="JBwW-usatGu79lFz4nw6-37">
+          <mxGeometry x="0.0524" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JBwW-usatGu79lFz4nw6-3" value="数据库&lt;div&gt;mi_smart_decision&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="140" y="40" width="100" height="1160" as="geometry" />
+        </mxCell>
+        <mxCell id="JBwW-usatGu79lFz4nw6-4" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;打包系统&lt;/font&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="420" y="40" width="100" height="1180" as="geometry" />
+        </mxCell>
+        <mxCell id="JBwW-usatGu79lFz4nw6-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;fontColor=light-dark(#000000,#EDEDED);" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="819.5" y="1130" as="sourcePoint" />
+            <mxPoint x="-70.5" y="1130" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="130" y="1130" />
+              <mxPoint x="130" y="1130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JBwW-usatGu79lFz4nw6-70" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;返回多机房检查结果&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=light-dark(#000000,#EDEDED);" vertex="1" connectable="0" parent="JBwW-usatGu79lFz4nw6-69">
+          <mxGeometry x="-0.0146" y="-3" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JBwW-usatGu79lFz4nw6-5" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;部署系统&lt;/font&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="770" y="40" width="100" height="1170" as="geometry" />
+        </mxCell>
+        <mxCell id="JBwW-usatGu79lFz4nw6-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=light-dark(#9e9a9a, #ededed);" edge="1" parent="1" source="JBwW-usatGu79lFz4nw6-6" target="JBwW-usatGu79lFz4nw6-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-120" y="150" />
+              <mxPoint x="-120" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JBwW-usatGu79lFz4nw6-8" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;新增模型配置&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=light-dark(#000000,#EDEDED);" vertex="1" connectable="0" parent="JBwW-usatGu79lFz4nw6-7">
+          <mxGeometry x="-0.1866" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JBwW-usatGu79lFz4nw6-6" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="120" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JBwW-usatGu79lFz4nw6-13" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;cp_credit_model_overview&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;表新增一条模型配置数据&lt;/font&gt;&lt;/div&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0.45;fontColor=light-dark(#000000,#EDEDED);" vertex="1" parent="1">
+          <mxGeometry x="200" y="110" width="230" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JBwW-usatGu79lFz4nw6-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=light-dark(#9e9a9a, #ededed);" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-250" y="280" as="sourcePoint" />
+            <mxPoint x="-70" y="280" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-120" y="280" />
+              <mxPoint x="-120" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JBwW-usatGu79lFz4nw6-16" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;新增模型/克隆&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=light-dark(#000000,#EDEDED);" vertex="1" connectable="0" parent="JBwW-usatGu79lFz4nw6-15">
+          <mxGeometry x="-0.1866" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JBwW-usatGu79lFz4nw6-23" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;cp_credit_model&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;表新增一条版本数据&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;cp_credit_model.overview_id=&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 13px; background-color: transparent;&quot;&gt;cp_credit_model_overview.id&lt;/span&gt;&lt;/div&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0.45;fontColor=light-dark(#000000,#EDEDED);" vertex="1" parent="1">
+          <mxGeometry x="200" y="240" width="230" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="JBwW-usatGu79lFz4nw6-28" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;参数结构：{&lt;/font&gt;&lt;div&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&quot;gitGroup&quot;:&quot;xj_risl_model&quot;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&quot;gtiProjectName&quot;:&quot;risk_model_demo&quot;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&quot;cmmitId&quot;:&quot;xxx&quot;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&quot;branch&quot;:&quot;xxx&quot;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&quot;baseDockerImage&quot;:&quot;xxx&quot;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&quot;env&quot;:&quot;xxx&quot;&lt;br&gt;&lt;/span&gt;&lt;div&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;}&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0.45;align=left;fontColor=light-dark(#000000,#EDEDED);" vertex="1" parent="1">
+          <mxGeometry x="480" y="290" width="250" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="JBwW-usatGu79lFz4nw6-32" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;cp_credit_model&lt;/font&gt;&lt;div&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;stage=-10&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;buildId=xxx&lt;/span&gt;&lt;/div&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0.8;fontColor=light-dark(#000000,#EDEDED);" vertex="1" parent="1">
+          <mxGeometry y="390" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JBwW-usatGu79lFz4nw6-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=light-dark(#9e9a9a, #ededed);" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-250" y="520" as="sourcePoint" />
+            <mxPoint x="-70" y="520" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-120" y="520" />
+              <mxPoint x="-120" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JBwW-usatGu79lFz4nw6-35" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;部署镜像&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=light-dark(#000000,#EDEDED);" vertex="1" connectable="0" parent="JBwW-usatGu79lFz4nw6-34">
+          <mxGeometry x="-0.1866" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JBwW-usatGu79lFz4nw6-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;fontColor=light-dark(#000000,#EDEDED);" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-70" y="810" as="sourcePoint" />
+            <mxPoint x="820" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JBwW-usatGu79lFz4nw6-51" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;创建Service&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=light-dark(#000000,#EDEDED);" vertex="1" connectable="0" parent="JBwW-usatGu79lFz4nw6-50">
+          <mxGeometry x="0.0124" y="-3" relative="1" as="geometry">
+            <mxPoint y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JBwW-usatGu79lFz4nw6-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;fontColor=light-dark(#000000,#EDEDED);" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-70" y="870" as="sourcePoint" />
+            <mxPoint x="820" y="870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JBwW-usatGu79lFz4nw6-54" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;创建Ingress&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=light-dark(#000000,#EDEDED);" vertex="1" connectable="0" parent="JBwW-usatGu79lFz4nw6-53">
+          <mxGeometry x="0.0124" y="-3" relative="1" as="geometry">
+            <mxPoint y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JBwW-usatGu79lFz4nw6-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;fontColor=light-dark(#000000,#EDEDED);" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-70" y="990" as="sourcePoint" />
+            <mxPoint x="190" y="990" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="120.5" y="990" />
+              <mxPoint x="120.5" y="990" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JBwW-usatGu79lFz4nw6-60" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;更新模型表的构建状态&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=light-dark(#000000,#EDEDED);" vertex="1" connectable="0" parent="JBwW-usatGu79lFz4nw6-59">
+          <mxGeometry x="0.1269" y="3" relative="1" as="geometry">
+            <mxPoint x="-5" y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JBwW-usatGu79lFz4nw6-61" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;cp_credit_model&lt;/font&gt;&lt;div&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;stage=-5&lt;/span&gt;&lt;/div&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0.8;fontColor=light-dark(#000000,#EDEDED);" vertex="1" parent="1">
+          <mxGeometry x="10" y="910" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="JBwW-usatGu79lFz4nw6-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=light-dark(#9e9a9a, #ededed);" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-250" y="1050" as="sourcePoint" />
+            <mxPoint x="-70" y="1050" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-120" y="1050" />
+              <mxPoint x="-120" y="1050" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JBwW-usatGu79lFz4nw6-65" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;健康检查&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=light-dark(#000000,#EDEDED);" vertex="1" connectable="0" parent="JBwW-usatGu79lFz4nw6-64">
+          <mxGeometry x="-0.1866" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JBwW-usatGu79lFz4nw6-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;fontColor=light-dark(#000000,#EDEDED);" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-70" y="1090" as="sourcePoint" />
+            <mxPoint x="820" y="1090" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JBwW-usatGu79lFz4nw6-67" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;调用健康检查接口&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=light-dark(#000000,#EDEDED);" vertex="1" connectable="0" parent="JBwW-usatGu79lFz4nw6-66">
+          <mxGeometry x="0.0124" y="-3" relative="1" as="geometry">
+            <mxPoint y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JBwW-usatGu79lFz4nw6-68" value="&lt;span style=&quot;font-size: 13px;&quot;&gt;/k8s/model/health/check&lt;/span&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0.8;fontColor=light-dark(#000000,#EDEDED);" vertex="1" parent="1">
+          <mxGeometry x="210" y="1010" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="JBwW-usatGu79lFz4nw6-72" value="循环机房创建容器资源" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=150;height=30;" vertex="1" parent="1">
+          <mxGeometry x="-140" y="720" width="1040" height="180" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
